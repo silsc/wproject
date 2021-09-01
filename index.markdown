@@ -17,7 +17,7 @@ title: W project
     <img src="/assets/images/home-arrow.svg" class="home-arrow" alt="white arrow down"/>
 </div>
     <div class="home-video-container">  
-        <video muted autoplay loop>
+        <video playsinline autoplay muted loop poster="/assets/images/home-video.png">
             <source src="/assets/images/home.mp4" type="video/mp4">
         </video>
     </div> 
