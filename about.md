@@ -22,7 +22,7 @@ title: W project
 </div>
     <div class="about-video-container">  
         <video playsinline autoplay muted loop poster="/assets/images/about-video.jpg">
-            <source src="/assets/images/about.mp4" type="video/mp4">
+            <source src="https://streamable.com/60e5pr" type="video/mp4">
         </video>
     </div> 
 </div>

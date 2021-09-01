@@ -18,9 +18,11 @@ title: Team
     <div class="team-card card-3" style="background-image: url(/assets/images/team-jane.png)"></div>
     <div class="team-card card-4" style="background-image: url(/assets/images/team-carlos.png)"></div>
 </div>
-    <div class="team-video-container">  
-        <video playsinline autoplay muted loop poster="/assets/images/team-video.jpg">
-            <source src="/assets/images/team.mp4" type="video/mp4">
-        </video>
-    </div> 
+    <div>
+    <div class="team-video-container">
+        <iframe src="https://streamable.com/e/ahad9k?autoplay=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+    </div>
+        <!-- <video playsinline autoplay muted loop poster="/assets/images/team-video.jpg">
+            <source src="https://streamable.com/ahad9k" type="video/mp4">
+        </video> -->
 </div>
