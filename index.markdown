@@ -18,7 +18,7 @@ title: W project
 </div>
     <div class="home-video-container">  
         <video playsinline autoplay muted loop poster="/assets/images/home-video.jpg">
-            <source src="/assets/images/home.mp4" type="video/mp4">
+            <source src="https://streamable.com/dme3zn" type="video/mp4">
         </video>
     </div> 
 </div>
