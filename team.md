@@ -19,7 +19,7 @@ title: Team
     <div class="team-card card-4" style="background-image: url(/assets/images/team-carlos.png)"></div>
 </div>
     <div class="team-video-container">  
-        <video muted autoplay loop>
+        <video playsinline autoplay muted loop poster="/assets/images/team-video.jpg">
             <source src="/assets/images/team.mp4" type="video/mp4">
         </video>
     </div> 
