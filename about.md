@@ -21,7 +21,7 @@ title: W project
     <h5 class="footer">Designed and developed by <span class="footer-span">Silvia Salat</span></h5>
 </div>
     <div class="about-video-container">  
-        <video muted autoplay loop>
+        <video playsinline autoplay muted loop poster="/assets/images/about-video.png">
             <source src="/assets/images/about.mp4" type="video/mp4">
         </video>
     </div> 
