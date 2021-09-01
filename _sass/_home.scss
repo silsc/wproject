@@ -1,3 +1,10 @@
 h1 {
   color: $light-blue;
 }
+
+.home-section {
+  video {
+    width: 100vw;
+    height: 100vh;
+  }
+}
