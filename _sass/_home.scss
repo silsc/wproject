@@ -1,7 +1,3 @@
-h1 {
-  color: $light-blue;
-}
-
 .home-section {
   position: relative;
   width: 100%;
@@ -10,7 +6,17 @@ h1 {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  color: white;
+  .home-tag {
+    font-family: Pinyon Script;
+    font-size: 36px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .home-text-container {
+    width: 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -18,29 +24,29 @@ h1 {
     text-align: center;
     z-index: 1;
     color: white;
-    .home-tag {
-      position: relative;
-      top: 0;
-      font-family: Pinyon Script;
-      font-size: 36px;
-    }
     .home-title {
-      margin-top: 15%;
       font-size: 144px;
       text-shadow: 5px 2px 0px #000000;
       color: $bright-yellow;
+      position: absolute;
+      left: 50%;
+      bottom: 15%;
+      transform: translate(-50%, -50%);
     }
     .home-button {
       font-family: Lora;
       font-weight: 300;
       font-size: 24px;
-      width: 35%;
+      width: 15%;
       margin: 0%;
-      margin-bottom: 1%;
-      padding: 3%;
+      padding: 2%;
       color: black;
       background-color: white;
       text-decoration: none;
+      position: absolute;
+      left: 50%;
+      bottom: 10%;
+      transform: translate(-50%, -50%);
       &:hover {
         background-color: $bright-yellow;
         color: white;
@@ -53,26 +59,26 @@ h1 {
       font-style: italic;
       font-size: 13px;
       margin-bottom: 0%;
-    }
-    .footer {
-      margin-top: 1.5%;
-      margin-bottom: 1%;
-      font-family: Lora;
-      font-style: italic;
-      font-weight: normal;
-      font-size: 10px;
-      .footer-span {
-        font-weight: bold;
-      }
+      position: absolute;
+      left: 50%;
+      bottom: 4%;
+      transform: translate(-50%, -50%);
     }
   }
-  video {
+  .footer {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    bottom: 0;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+    .footer-span {
+      font-weight: bold;
+    }
+  }
+  .home-arrow {
+    position: absolute;
+    bottom: 0;
   }
 }
 
