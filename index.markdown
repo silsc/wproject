@@ -10,7 +10,7 @@ title: W project
 <div class="home-text-container">
     <h4 class="home-tag">photography</h4>
     <h1 class="home-title">W project</h1>
-    <h3 class="home-button">About W project</h3>
+    <a class="home-button" href="/about">About W project</a>
     <p class="home-parag">W project is a photography studio based in Barcelona where you can make your projects come to life.
 <br>We help you with your vision.</p>
     <h5 class="footer">Designed and developed by <span class="footer-span">Silvia Salat</span></h5>
