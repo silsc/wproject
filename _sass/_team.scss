@@ -6,36 +6,38 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  .team-text-container {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+  color: white;
+  .team-tag {
+    font-family: Pinyon Script;
+    font-size: 36px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .team-title {
+    width: 100vw;
+    font-size: 144px;
+    text-shadow: 5px 2px 0px #000000;
+    color: $bright-yellow;
+    margin: 0;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     align-items: center;
     text-align: center;
     z-index: 1;
-    color: white;
-    .team-tag {
-      position: absolute;
-      top: 0;
-      font-family: Pinyon Script;
-      font-size: 36px;
-    }
-    .team-title {
-      font-size: 144px;
-      text-shadow: 5px 2px 0px #000000;
-      color: $bright-yellow;
-      margin: 0;
-    }
-    .footer {
-      position: absolute;
-      bottom: 0;
-      font-family: Lora;
-      font-style: italic;
-      font-weight: normal;
-      font-size: 10px;
-      .footer-span {
-        font-weight: bold;
-      }
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+    .footer-span {
+      font-weight: bold;
     }
   }
   .team-cards-container {
@@ -72,13 +74,15 @@
       }
     }
   }
+  .video-container {
+    height: 150vh;
+    width: 100%;
+  }
   iframe {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     z-index: -1;
   }
 }
