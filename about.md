@@ -24,5 +24,9 @@ title: W project
         <video playsinline autoplay muted loop poster="/assets/images/about-video.jpg">
             <source src="https://streamable.com/60e5pr" type="video/mp4">
         </video>
-    </div> 
+    </div>
 </div>
+{% include circlelogo.html %}
+
+ <script src="../js/circlelogo.js"></script>
+ <script src="../js/bgvideo.js"></script>

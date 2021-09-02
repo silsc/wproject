@@ -16,7 +16,11 @@ title: W project
 </div>
 <h5 class="footer">Designed and developed by <span class="footer-span">Silvia Salat</span></h5>
     <img src="/assets/images/home-arrow.svg" class="home-arrow" alt="white arrow down"/>
-<div class="video-container">
+    <div class="video-container">
         <iframe src="https://streamable.com/e/dme3zn?autoplay=1&nocontrols=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
     </div>
 </div>
+{% include circlelogo.html %}
+
+ <script src="../js/circlelogo.js"></script>
+ <script src="../js/bgvideo.js"></script>
