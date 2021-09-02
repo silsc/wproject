@@ -71,6 +71,19 @@
           }
         }
       }
+      .about-sns {
+        margin-top: 10%;
+        .about-sns-svg {
+          text-decoration: none;
+          svg {
+            fill: white;
+            margin-right: 3%;
+            &:hover {
+              fill: $bright-yellow;
+            }
+          }
+        }
+      }
     }
   }
 }
