@@ -21,6 +21,27 @@ title: W project
     </div>
 </div>
 {% include circlelogo.html %}
-
+<div class="projects-section" id="projects">
+    <div class="project-one-section">
+        <h4 class="projects-tag">projects</h4>
+        <h2 class="projects-category">Editorial</h2>
+        <h3 class="projects-next">NEXT</h3>
+        <p class="projects-next-line"></p>
+    </div>
+    <div class="project-two-section">
+        <h4 class="projects-tag">projects</h4>
+        <h2 class="projects-category">Weddings</h2>
+        <h3 class="projects-next">NEXT</h3>
+        <p class="projects-next-line"></p>
+        <h3 class="projects-previous">PREVIOUS</h3>
+        <p class="projects-previous-line"></p>
+    </div>
+    <div class="project-three-section">
+        <h4 class="projects-tag">projects</h4>
+        <h2 class="projects-category">Events</h2>
+        <h3 class="projects-previous">PREVIOUS</h3>
+        <p class="projects-previous-line"></p>
+    </div>
+</div>
  <script src="../js/circlelogo.js"></script>
  <script src="../js/bgvideo.js"></script>
