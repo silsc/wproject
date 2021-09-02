@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  overflow: hidden;
+  .logo {
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    margin: 1em;
+    position: relative;
+    z-index: 101;
+    h2 {
+      margin: 0;
+    }
+  }
+  .navbar {
+    width: 100vw;
+    height: 100vh;
+    background-color: $light-blue;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    transition: right 0.8s;
+    z-index: 100;
+    .navbar-menu {
+      display: inline-block;
+      cursor: pointer;
+      position: fixed;
+      top: 2vw;
+      right: 4vw;
+    }
+  }
+  .change {
+    right: 0rem;
+  }
+}
+
+.nav-list {
+  margin-top: 200px;
+  .nav-item {
+    margin: 3em 5em 3em 2em;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    .nav-link {
+      text-decoration: none;
+      color: white;
+      font-size: 2em;
+    }
+  }
+  .contact-line {
+    transform: translate(6rem, -4em);
+  }
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.show {
+  overflow: visible;
+}

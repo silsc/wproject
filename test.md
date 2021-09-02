@@ -4,6 +4,7 @@ page: test
 title: test
 ---
 
-{% include circlelogo.html %}
+{% include navbar.html %}
 
- <script src="../js/circlelogo.js"></script>
+<script src="../js/navbar.js"></script>
+<script src="../js/circlelogo.js"></script>
