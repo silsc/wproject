@@ -9,7 +9,7 @@ title: Team
 <div class="team-section">
 <h4 class="team-tag">about us</h4>
         <h1 class="team-title">Our team</h1>
-<h5 class="footer">Designed and developed by <span class="footer-span">Silvia Salat</span></h5>
+{% include footer.html %}
 <div class="team-cards-container">
     <div class="team-card card-1" style="background-image: url(/assets/images/team-john.png)"></div>
     <div class="team-card card-2" style="background-image: url(/assets/images/team-sam.png)" ></div>
