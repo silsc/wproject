@@ -36,28 +36,72 @@
     left: 0;
     width: 100%;
     z-index: 0;
+    .card-1::before {
+      background-image: url(/assets/images/team-john.png);
+    }
+    .card-2::before {
+      background-image: url(/assets/images/team-sam.png);
+    }
+    .card-3::before {
+      background-image: url(/assets/images/team-jane.png);
+    }
+    .card-4::before {
+      background-image: url(/assets/images/team-carlos.png);
+    }
     .team-card {
+      position: relative;
       width: 220px;
       height: 300px;
-      background-color: white;
       display: inline-block;
-      -webkit-filter: blur(4px) grayscale(100%); /* Safari 6.0 - 9.0 */
-      filter: blur(4px) grayscale(100%);
-      &:hover {
-        transition: transform 0.5s ease;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-filter: blur(4px) grayscale(100%);
+        filter: blur(4px) grayscale(100%);
+      }
+      .team-card-name {
+        position: relative;
+        font-size: 30px;
+      }
+      &:hover::before {
         -webkit-filter: blur(0px) grayscale(0%); /* Safari 6.0 - 9.0 */
         filter: blur(0px) grayscale(0%);
+      }
+      &:hover {
+        transition: transform 0.5s ease;
+        .team-card-name {
+          color: $bright-yellow;
+          text-shadow: 5px 2px 0px #000000;
+        }
       }
       // PROBLEM with transition
     }
     .card-1,
     .card-4 {
+      .team-card-name {
+        position: relative;
+        top: 70%;
+        left: 30%;
+        z-index: 100;
+        font-size: 35px;
+      }
       &:hover {
         transform: translate(0, 100px);
       }
     }
     .card-2,
     .card-3 {
+      .team-card-name {
+        position: relative;
+        top: 0%;
+        left: 35%;
+        z-index: 100;
+        font-size: 35px;
+      }
       &:hover {
         transform: translate(0, -100px);
       }
