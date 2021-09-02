@@ -18,7 +18,7 @@ title: W project
         <a class="about-button team-btn" href="/team">Our team</a>
         </div>
     </div>
-    <h5 class="footer">Designed and developed by <span class="footer-span">Silvia Salat</span></h5>
+    {% include footer.html %}
 </div>
 <div class="video-container">
     <iframe src="https://streamable.com/e/60e5pr?autoplay=1&nocontrols=1" frameborder="0">

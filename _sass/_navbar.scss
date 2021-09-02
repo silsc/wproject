@@ -32,34 +32,51 @@
       top: 2vw;
       right: 4vw;
     }
+    .navbar-menu-close {
+      visibility: hidden;
+      position: fixed;
+      top: 0;
+      right: 4vw;
+      font-family: Pinyon Script;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      color: $bright-yellow;
+    }
   }
   .change {
     right: 0rem;
+    .navbar-menu-close {
+      visibility: visible;
+    }
+    svg {
+      display: none;
+    }
   }
 }
 
 .nav-list {
-  margin-top: 200px;
+  margin-top: 10%;
   .nav-item {
     margin: 3em 5em 3em 2em;
     list-style-type: none;
     text-align: center;
     padding: 0;
     .nav-link {
+      font-family: Lora;
+      font-style: italic;
+      font-weight: 400;
       text-decoration: none;
       color: white;
       font-size: 2em;
+    }
+    .contact-nav-link {
+      padding: 1% 4%;
+      background: white;
+      color: black;
     }
   }
   .contact-line {
     transform: translate(6rem, -4em);
   }
-}
-
-.hidden {
-  overflow: hidden;
-}
-
-.show {
-  overflow: visible;
 }
