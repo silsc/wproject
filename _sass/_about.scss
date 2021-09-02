@@ -6,19 +6,22 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  color: white;
+  .about-tag {
+    text-align: center;
+    position: absolute;
+    top: 0em;
+    font-family: Pinyon Script;
+    font-size: 36px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .about-text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 1;
     color: white;
-    .about-tag {
-      text-align: center;
-      position: absolute;
-      top: 0em;
-      font-family: Pinyon Script;
-      font-size: 36px;
-    }
     .about-text-content-container {
       position: absolute;
       left: 0em;
@@ -69,27 +72,5 @@
         }
       }
     }
-    .footer {
-      text-align: center;
-      position: absolute;
-      bottom: 0em;
-      margin-top: 1.5%;
-      margin-bottom: 1%;
-      font-family: Lora;
-      font-style: italic;
-      font-weight: normal;
-      font-size: 10px;
-      .footer-span {
-        font-weight: bold;
-      }
-    }
-  }
-  video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
   }
 }

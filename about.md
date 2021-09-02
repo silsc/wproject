@@ -20,9 +20,8 @@ title: W project
     </div>
     <h5 class="footer">Designed and developed by <span class="footer-span">Silvia Salat</span></h5>
 </div>
-    <div class="about-video-container">  
-        <video playsinline autoplay muted loop poster="/assets/images/about-video.jpg">
-            <source src="https://streamable.com/60e5pr" type="video/mp4">
-        </video>
-    </div> 
+<div class="video-container">
+    <iframe src="https://streamable.com/e/60e5pr?autoplay=1&nocontrols=1" frameborder="0">
+    </iframe>
+</div>
 </div>

@@ -29,17 +29,6 @@
     text-align: center;
     z-index: 1;
   }
-  .footer {
-    position: absolute;
-    bottom: 0;
-    font-family: Lora;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 10px;
-    .footer-span {
-      font-weight: bold;
-    }
-  }
   .team-cards-container {
     display: flex;
     justify-content: space-around;
