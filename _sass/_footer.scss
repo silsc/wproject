@@ -1,0 +1,13 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  font-family: Lora;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .footer-span {
+    font-weight: bold;
+  }
+}
