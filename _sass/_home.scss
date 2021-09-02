@@ -74,12 +74,12 @@
 #projects {
   display: flex;
   color: white;
-  width: 300vw;
+  width: 100vw;
+  height: 100vh;
   overflow-y: hidden;
   .project-one-section {
     position: relative;
     background: $dark-blue;
-    height: 100vh;
     width: 100vw;
     .projects-tag {
       font-family: Pinyon Script;
@@ -120,7 +120,7 @@
     position: relative;
     background: $light-gray;
     height: 100vh;
-    width: 100vw;
+    width: -100vw;
     overflow-y: hidden;
     .projects-tag {
       font-family: Pinyon Script;
@@ -177,7 +177,7 @@
     position: relative;
     background: $dark-brown;
     height: 100vh;
-    width: 100vw;
+    width: -100vw;
     overflow-y: hidden;
     .projects-tag {
       font-family: Pinyon Script;
