@@ -1,0 +1,144 @@
+#projects {
+  display: flex;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  .project-one-section {
+    position: relative;
+    background: $dark-blue;
+    width: 100vw;
+    .projects-tag {
+      font-family: Pinyon Script;
+      font-size: 36px;
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .projects-category {
+      font-family: Lora;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 144px;
+      position: absolute;
+      bottom: -40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .projects-next-line {
+      position: absolute;
+      bottom: 50%;
+      right: 5%;
+      width: 15%;
+      border-top: 1px solid white;
+    }
+    .projects-next {
+      font-family: Lora;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      bottom: 47%;
+      right: 22%;
+      font-size: 24px;
+    }
+  }
+  .project-two-section {
+    position: relative;
+    background: $light-gray;
+    height: 100vh;
+    width: -100vw;
+    overflow-y: hidden;
+    .projects-tag {
+      font-family: Pinyon Script;
+      font-size: 36px;
+      position: absolute;
+      bottom: -5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .projects-category {
+      font-family: Lora;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 144px;
+      position: absolute;
+      top: -15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .projects-next-line {
+      position: absolute;
+      bottom: 50%;
+      right: 5%;
+      width: 15%;
+      border-top: 1px solid white;
+    }
+    .projects-next {
+      font-family: Lora;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      bottom: 47%;
+      right: 22%;
+      font-size: 24px;
+    }
+    .projects-previous-line {
+      position: absolute;
+      bottom: 50%;
+      left: 5%;
+      width: 15%;
+      border-top: 1px solid white;
+    }
+    .projects-previous {
+      font-family: Lora;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      bottom: 47%;
+      left: 22%;
+      font-size: 24px;
+    }
+  }
+  .project-three-section {
+    position: relative;
+    background: $dark-brown;
+    height: 100vh;
+    width: -100vw;
+    overflow-y: hidden;
+    .projects-tag {
+      font-family: Pinyon Script;
+      font-size: 36px;
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .projects-category {
+      font-family: Lora;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 144px;
+      position: absolute;
+      bottom: -40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .projects-previous-line {
+      position: absolute;
+      bottom: 50%;
+      left: 5%;
+      width: 15%;
+      border-top: 1px solid white;
+    }
+    .projects-previous {
+      font-family: Lora;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      bottom: 47%;
+      left: 22%;
+      font-size: 24px;
+    }
+  }
+}
