@@ -120,21 +120,25 @@
       height: 80vh;
       .team-card {
         position: absolute;
+        &:focus::before {
+          -webkit-filter: blur(0px) grayscale(0%); /* Safari 6.0 - 9.0 */
+          filter: blur(0px) grayscale(0%);
+        }
       }
       .card-1 {
-        top: 0%;
-        left: 9%;
+        bottom: 10%;
+        left: 5%;
       }
       .card-2 {
         top: 10%;
         left: 60%;
       }
       .card-3 {
-        bottom: 0%;
-        left: 5%;
+        top: 5%;
+        left: 9%;
       }
       .card-4 {
-        bottom: 5%;
+        bottom: 15%;
         right: 8%;
       }
     }
