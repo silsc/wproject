@@ -23,12 +23,26 @@ title: W project
 {% include circlelogo.html %}
 <div class="projects-section" id="projects">
     <div class="project-one-section">
+        <div class="stack stack1">
+            <div class="card card1">1</div>
+            <div class="card card1">2</div>
+            <div class="card card1">3</div>
+            <div class="card card1">4</div>
+            <div class="card card1">5</div>
+        </div>
         <h4 class="projects-tag">projects</h4>
         <h2 class="projects-category">Editorial</h2>
         <h3 class="projects-next">NEXT</h3>
         <p class="projects-next-line"></p>
     </div>
     <div class="project-two-section">
+        <div class="stack stack2">
+            <div class="card card2">1</div>
+            <div class="card card2">2</div>
+            <div class="card card2">3</div>
+            <div class="card card2">4</div>
+            <div class="card card2">5</div>
+        </div>
         <h4 class="projects-tag">projects</h4>
         <h2 class="projects-category">Weddings</h2>
         <h3 class="projects-next">NEXT</h3>
@@ -37,11 +51,19 @@ title: W project
         <p class="projects-previous-line"></p>
     </div>
     <div class="project-three-section">
+    <div class="stack stack3">
+            <div class="card card3">1</div>
+            <div class="card card3">2</div>
+            <div class="card card3">3</div>
+            <div class="card card3">4</div>
+            <div class="card card3">5</div>
+        </div>
         <h4 class="projects-tag">projects</h4>
         <h2 class="projects-category">Events</h2>
         <h3 class="projects-previous">PREVIOUS</h3>
         <p class="projects-previous-line"></p>
     </div>
 </div>
+<script src="../js/cardstack.js"></script>
  <script src="../js/circlelogo.js"></script>
  <script src="../js/bgvideo.js"></script>
