@@ -3,5 +3,9 @@ const container = document.querySelector(".video-container");
 const video = container.querySelector("iframe");
 const videoAspectRatio = video.clientWidth / video.clientHeight;
 
-video.style.height = `${container.clientHeight}px`;
-video.style.width = `${container.clientWidth * videoAspectRatio}px`;
+video.style.height = `${window.innerHeight}px`;
+if (window.innerWidth > "650px") {
+  video.style.width = `${window.innerWidth * videoAspectRatio}px`;
+} else {
+  video.style.width = "2000px";
+}
