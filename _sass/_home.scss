@@ -13,6 +13,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .home-title {
+    text-align: center;
+    width: 100%;
+    font-size: 144px;
+    text-shadow: 5px 2px 0px #000000;
+    color: $bright-yellow;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .home-text-container {
     width: 100%;
     box-sizing: border-box;
@@ -22,23 +33,12 @@
     text-align: center;
     z-index: 1;
     color: white;
-    .home-title {
-      width: 100%;
-      font-size: 144px;
-      text-shadow: 5px 2px 0px #000000;
-      color: $bright-yellow;
-      position: absolute;
-      left: 50%;
-      bottom: 15%;
-      transform: translate(-50%, -50%);
-    }
     .home-button {
       font-family: Lora;
       font-weight: 300;
       font-size: 24px;
-      width: 15%;
       margin: 0%;
-      padding: 2%;
+      padding: 30px 40px;
       color: black;
       background-color: white;
       text-decoration: none;
@@ -71,149 +71,27 @@
   }
 }
 
-#projects {
-  display: flex;
-  color: white;
-  width: 100vw;
-  height: 100vh;
-  overflow-y: hidden;
-  .project-one-section {
-    position: relative;
-    background: $dark-blue;
-    width: 100vw;
-    .projects-tag {
-      font-family: Pinyon Script;
-      font-size: 36px;
-      position: absolute;
+@media screen and (max-width: 650px) {
+  .home-section {
+    .home-tag {
+      font-size: 5vw;
       top: 5%;
-      left: 50%;
-      transform: translate(-50%, -50%);
     }
-    .projects-category {
-      font-family: Lora;
-      font-style: italic;
-      font-weight: normal;
-      font-size: 144px;
-      position: absolute;
-      bottom: -40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    .home-title {
+      font-size: 22vw;
     }
-    .projects-next-line {
-      position: absolute;
-      bottom: 50%;
-      right: 5%;
-      width: 15%;
-      border-top: 1px solid white;
-    }
-    .projects-next {
-      font-family: Lora;
-      font-style: normal;
-      font-weight: normal;
-      position: absolute;
-      bottom: 47%;
-      right: 22%;
-      font-size: 24px;
-    }
-  }
-  .project-two-section {
-    position: relative;
-    background: $light-gray;
-    height: 100vh;
-    width: -100vw;
-    overflow-y: hidden;
-    .projects-tag {
-      font-family: Pinyon Script;
-      font-size: 36px;
-      position: absolute;
-      bottom: -5%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .projects-category {
-      font-family: Lora;
-      font-style: italic;
-      font-weight: normal;
-      font-size: 144px;
-      position: absolute;
-      top: -15%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .projects-next-line {
-      position: absolute;
-      bottom: 50%;
-      right: 5%;
-      width: 15%;
-      border-top: 1px solid white;
-    }
-    .projects-next {
-      font-family: Lora;
-      font-style: normal;
-      font-weight: normal;
-      position: absolute;
-      bottom: 47%;
-      right: 22%;
-      font-size: 24px;
-    }
-    .projects-previous-line {
-      position: absolute;
-      bottom: 50%;
-      left: 5%;
-      width: 15%;
-      border-top: 1px solid white;
-    }
-    .projects-previous {
-      font-family: Lora;
-      font-style: normal;
-      font-weight: normal;
-      position: absolute;
-      bottom: 47%;
-      left: 22%;
-      font-size: 24px;
-    }
-  }
-  .project-three-section {
-    position: relative;
-    background: $dark-brown;
-    height: 100vh;
-    width: -100vw;
-    overflow-y: hidden;
-    .projects-tag {
-      font-family: Pinyon Script;
-      font-size: 36px;
-      position: absolute;
-      top: 5%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .projects-category {
-      font-family: Lora;
-      font-style: italic;
-      font-weight: normal;
-      font-size: 144px;
-      position: absolute;
-      bottom: -40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .projects-previous-line {
-      position: absolute;
-      bottom: 50%;
-      left: 5%;
-      width: 15%;
-      border-top: 1px solid white;
-    }
-    .projects-previous {
-      font-family: Lora;
-      font-style: normal;
-      font-weight: normal;
-      position: absolute;
-      bottom: 47%;
-      left: 22%;
-      font-size: 24px;
+    .home-text-container {
+      .home-button {
+        padding: 30px 30px;
+      }
     }
   }
 }
 
-//mixins 615px hometitlephone 20vw
+@media screen and (max-width: 834px) {
+  .home-section {
+    .home-title {
+      top: 40%;
+    }
+  }
+}
