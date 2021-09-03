@@ -7,5 +7,6 @@ video.style.height = `${container.clientHeight}px`;
 if (window.innerWidth > "840px") {
   video.style.width = `${window.innerWidth * videoAspectRatio}px`;
 } else {
+  video.style.height = "100%;";
   video.style.width = "3000px";
 }
