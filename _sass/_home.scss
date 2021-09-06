@@ -12,6 +12,10 @@
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
+    @include small {
+      font-size: 5vw;
+      top: 5%;
+    }
   }
   .home-title {
     text-align: center;
@@ -23,6 +27,12 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    @include small {
+      font-size: 22vw;
+    }
+    @include medium {
+      top: 40%;
+    }
   }
   .home-text-container {
     width: 100%;
@@ -46,6 +56,9 @@
       left: 50%;
       bottom: 10%;
       transform: translate(-50%, -50%);
+      @include small {
+        padding: 30px 30px;
+      }
       &:hover {
         background-color: $bright-yellow;
         color: white;
@@ -68,30 +81,5 @@
     position: absolute;
     bottom: 0;
     left: 49%;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .home-section {
-    .home-tag {
-      font-size: 5vw;
-      top: 5%;
-    }
-    .home-title {
-      font-size: 22vw;
-    }
-    .home-text-container {
-      .home-button {
-        padding: 30px 30px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 834px) {
-  .home-section {
-    .home-title {
-      top: 40%;
-    }
   }
 }
