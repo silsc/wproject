@@ -76,4 +76,3 @@ title: W project
 <script src="../js/cardstack.js"></script>
  <script src="../js/circlelogo.js"></script>
  <script src="../js/bgvideo.js"></script>
- <script src="../js/carousel.js"></script>
