@@ -24,11 +24,11 @@ title: W project
 <div class="projects-section" id="projects">
     <div class="project-one-section">
         <div class="stack stack1">
-            <div class="card card1">1</div>
-            <div class="card card1">2</div>
-            <div class="card card1">3</div>
-            <div class="card card1">4</div>
-            <div class="card card1">5</div>
+            <div class="card card1" style="background-image: url(../assets/images/editorial1.jpg); background-size: cover"></div>
+            <div class="card card1" style="background-image: url(../assets/images/editorial2.jpg); background-size: cover"></div>
+            <div class="card card1" style="background-image: url(../assets/images/editorial3.jpg); background-size: cover"></div>
+            <div class="card card1" style="background-image: url(../assets/images/editorial4.jpg); background-size: cover"></div>
+            <div class="card card1" style="background-image: url(../assets/images/editorial5.jpg); background-size: cover"></div>
         </div>
         <h4 class="projects-tag">projects</h4>
         <h2 class="projects-category">Editorial</h2>
@@ -37,11 +37,11 @@ title: W project
     </div>
     <div class="project-two-section">
         <div class="stack stack2">
-            <div class="card card2">1</div>
-            <div class="card card2">2</div>
-            <div class="card card2">3</div>
-            <div class="card card2">4</div>
-            <div class="card card2">5</div>
+            <div class="card card2" style="background-image: url(../assets/images/wed1.jpg); background-size: cover"></div>
+            <div class="card card2" style="background-image: url(../assets/images/wed2.jpg); background-size: cover"></div>
+            <div class="card card2" style="background-image: url(../assets/images/wed3.jpg); background-size: cover"></div>
+            <div class="card card2" style="background-image: url(../assets/images/wed4.jpg); background-size: cover"></div>
+            <div class="card card2" style="background-image: url(../assets/images/wed5.jpg); background-size: cover"></div>
         </div>
         <h4 class="projects-tag">projects</h4>
         <h2 class="projects-category">Weddings</h2>
@@ -52,11 +52,11 @@ title: W project
     </div>
     <div class="project-three-section">
     <div class="stack stack3">
-            <div class="card card3">1</div>
-            <div class="card card3">2</div>
-            <div class="card card3">3</div>
-            <div class="card card3">4</div>
-            <div class="card card3">5</div>
+            <div class="card card3" style="background-image: url(../assets/images/event1.jpg); background-size: cover"></div>
+            <div class="card card3" style="background-image: url(../assets/images/event2.jpg); background-size: cover"></div>
+            <div class="card card3" style="background-image: url(../assets/images/event3.jpg); background-size: cover"></div>
+            <div class="card card3" style="background-image: url(../assets/images/event4.jpg); background-size: cover"></div>
+            <div class="card card3" style="background-image: url(../assets/images/event5.jpg); background-size: cover"></div>
         </div>
         <h4 class="projects-tag">projects</h4>
         <h2 class="projects-category">Events</h2>
