@@ -1,0 +1,29 @@
+#preloader {
+  width: 100%;
+  height: 100vh;
+  background-color: $dark-blue;
+  width: 100%;
+  position: fixed;
+  z-index: 101;
+  transition: 1s ease;
+  top: 0;
+  .preloader-title {
+    text-align: center;
+    width: 100%;
+    font-size: 144px;
+    text-shadow: 5px 2px 0px #000000;
+    color: $bright-yellow;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .preloader-tag {
+    font-family: Pinyon Script;
+    font-size: 36px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

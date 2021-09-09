@@ -37,6 +37,3 @@ title: W project
 </div>
 </div>
 {% include circlelogo.html %}
-
- <script src="../js/circlelogo.js"></script>
- <script src="../js/bgvideo.js"></script>

@@ -4,6 +4,7 @@ page: index
 title: W project
 ---
 
+{% include preloader.html %}
 {% include navbar.html %}
 
 <div class="home-section">
@@ -73,6 +74,3 @@ title: W project
         <p class="projects-previous-line"></p>
     </div>
 </div>
-<script src="../js/cardstack.js"></script>
- <script src="../js/circlelogo.js"></script>
- <script src="../js/bgvideo.js"></script>
