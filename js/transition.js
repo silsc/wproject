@@ -1,6 +1,6 @@
 window.onload = () => {
   const transition = document.querySelector(".transition");
-  const links = document.querySelectorAll("a");
+  const links = document.querySelectorAll(".link");
 
   setTimeout(() => {
     transition.classList.remove("is-active");

@@ -16,8 +16,8 @@ title: W project
         <p class="about-parag">W project is a photography studio based in Barcelona where you can make your projects come to life.
     <br>We help you with your vision.</p>
         <div class="about-buttons-container">
-            <a class="about-button contact-btn" href="/contact">Contact</a>
-            <a class="about-button team-btn" href="/team">Our team</a>
+            <a class="link about-button contact-btn" href="/contact">Contact</a>
+            <a class="link about-button team-btn" href="/team">Our team</a>
         </div>
         <div class="about-sns">
             <a class="about-sns-svg" href="">
