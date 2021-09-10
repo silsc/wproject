@@ -6,6 +6,8 @@ title: Team
 
 {% include navbar.html %}
 
+<div class="transition transition-2 is-active"></div>
+
 <div class="team-section">
 <h4 class="team-tag">about us</h4>
         <h1 class="team-title">Our team</h1>

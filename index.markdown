@@ -7,6 +7,8 @@ title: W project
 {% include preloader.html %}
 {% include navbar.html %}
 
+<div class="transition transition-1"></div>
+
 <div class="home-section">
     <h4 class="home-tag">photography</h4>
     <h1 class="home-title">W project</h1>

@@ -6,6 +6,8 @@ title: W project
 
 {% include navbar.html %}
 
+<div class="transition transition-1 is-active"></div>
+
 <div class="about-section">
 <div class="about-text-container">
     <h4 class="about-tag">about us</h4>
