@@ -5,6 +5,10 @@
   top: 30%;
   left: 50%;
   transform: translateX(-60%);
+  @include smallheight {
+    width: 200px;
+    height: 250px;
+  }
 }
 .card {
   width: 250px;
@@ -21,6 +25,10 @@
   transition: transform 200ms;
   &:hover {
     cursor: pointer;
+  }
+  @include smallheight {
+    width: 200px;
+    min-height: 100%;
   }
 }
 
