@@ -25,6 +25,10 @@
     align-items: center;
     text-align: center;
     z-index: 1;
+    @include small {
+      font-size: 20vw;
+      top: 20%;
+    }
   }
   .team-cards-container {
     display: flex;
@@ -33,23 +37,80 @@
     left: 0;
     width: 100%;
     z-index: 0;
-    .card-1::before {
-      background-image: url(/assets/images/team-john.png);
+    @include small {
+      flex-wrap: wrap;
     }
-    .card-2::before {
-      background-image: url(/assets/images/team-sam.png);
+    @include medium {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 80vh;
     }
-    .card-3::before {
-      background-image: url(/assets/images/team-jane.png);
+    .card-1 {
+      @include small {
+      }
+      @include medium {
+        bottom: 10%;
+        left: 5%;
+      }
+      &::before {
+        background-image: url(/assets/images/team-john.png);
+        background-size: cover;
+      }
     }
-    .card-4::before {
-      background-image: url(/assets/images/team-carlos.png);
+    .card-2 {
+      @include small {
+      }
+      @include medium {
+        top: 10%;
+        left: 60%;
+      }
+      &::before {
+        background-image: url(/assets/images/team-sam.png);
+        background-size: cover;
+      }
+    }
+    .card-3 {
+      @include small {
+      }
+      @include medium {
+        top: 5%;
+        left: 9%;
+      }
+      &::before {
+        background-image: url(/assets/images/team-jane.png);
+        background-size: cover;
+      }
+    }
+    .card-4 {
+      @include small {
+      }
+      @include medium {
+        bottom: 15%;
+        right: 8%;
+      }
+      &::before {
+        background-image: url(/assets/images/team-carlos.png);
+        background-size: cover;
+      }
     }
     .team-card {
       position: relative;
       width: 220px;
       height: 300px;
       display: inline-block;
+      @include small {
+        width: 100px;
+        height: 200px;
+        margin: 10px;
+      }
+      @include medium {
+        position: absolute;
+        &:focus::before {
+          -webkit-filter: blur(0px) grayscale(0%); /* Safari 6.0 - 9.0 */
+          filter: blur(0px) grayscale(0%);
+        }
+      }
       &::before {
         content: "";
         position: absolute;
@@ -59,10 +120,6 @@
         height: 100%;
         -webkit-filter: blur(4px) grayscale(100%);
         filter: blur(4px) grayscale(100%);
-      }
-      .team-card-name {
-        position: relative;
-        font-size: 30px;
       }
       &:hover::before {
         -webkit-filter: blur(0px) grayscale(0%); /* Safari 6.0 - 9.0 */
@@ -85,9 +142,15 @@
         left: 30%;
         z-index: 100;
         font-size: 35px;
+        @include small {
+          font-size: 5vw;
+        }
       }
       &:hover {
         transform: translate(0, 100px);
+        @include small {
+          transform: none;
+        }
       }
     }
     .card-2,
@@ -98,9 +161,17 @@
         left: 35%;
         z-index: 100;
         font-size: 35px;
+        @include small {
+          font-size: 5vw;
+          top: 70%;
+          left: 30%;
+        }
       }
       &:hover {
         transform: translate(0, -100px);
+        @include small {
+          transform: none;
+        }
       }
     }
   }
@@ -109,38 +180,7 @@
   position: absolute;
   bottom: 10%;
   right: 45%;
-}
-
-@media screen and (max-width: 834px) {
-  .team-section {
-    .team-cards-container {
-      display: block;
-      position: relative;
-      width: 100%;
-      height: 80vh;
-      .team-card {
-        position: absolute;
-        &:focus::before {
-          -webkit-filter: blur(0px) grayscale(0%); /* Safari 6.0 - 9.0 */
-          filter: blur(0px) grayscale(0%);
-        }
-      }
-      .card-1 {
-        bottom: 10%;
-        left: 5%;
-      }
-      .card-2 {
-        top: 10%;
-        left: 60%;
-      }
-      .card-3 {
-        top: 5%;
-        left: 9%;
-      }
-      .card-4 {
-        bottom: 15%;
-        right: 8%;
-      }
-    }
+  @include small {
+    z-index: -1;
   }
 }
