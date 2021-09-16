@@ -76,6 +76,9 @@
       left: 50%;
       bottom: 4%;
       transform: translate(-50%, -50%);
+      @include small {
+        width: 90%;
+      }
     }
   }
   .home-arrow {
