@@ -39,6 +39,10 @@
         bottom: -20%;
         font-size: 20vw;
       }
+      @include medium {
+        bottom: -20%;
+        font-size: 15vw;
+      }
     }
     .projects-next-line {
       position: absolute;
@@ -48,6 +52,9 @@
       border-top: 1px solid white;
       @include small {
         bottom: 13%;
+      }
+      @include medium {
+        bottom: 22%;
       }
     }
     .projects-next {
@@ -60,6 +67,9 @@
       font-size: 24px;
       @include small {
         bottom: 10%;
+      }
+      @include medium {
+        bottom: 20%;
       }
     }
   }
@@ -95,6 +105,10 @@
         top: -10%;
         font-size: 20vw;
       }
+      @include medium {
+        top: -10%;
+        font-size: 15vw;
+      }
     }
     .projects-next-line {
       position: absolute;
@@ -104,6 +118,9 @@
       border-top: 1px solid white;
       @include small {
         bottom: 13%;
+      }
+      @include medium {
+        bottom: 22%;
       }
     }
     .projects-next {
@@ -117,6 +134,9 @@
       @include small {
         bottom: 10%;
       }
+      @include medium {
+        bottom: 20%;
+      }
     }
     .projects-previous-line {
       position: absolute;
@@ -126,6 +146,9 @@
       border-top: 1px solid white;
       @include small {
         top: 13%;
+      }
+      @include medium {
+        top: 17%;
       }
     }
     .projects-previous {
@@ -138,6 +161,9 @@
       font-size: 24px;
       @include small {
         top: 10%;
+      }
+      @include medium {
+        top: 15%;
       }
     }
   }
@@ -173,6 +199,10 @@
         bottom: -20%;
         font-size: 20vw;
       }
+      @include medium {
+        bottom: -20%;
+        font-size: 15vw;
+      }
     }
     .projects-previous-line {
       position: absolute;
@@ -182,6 +212,9 @@
       border-top: 1px solid white;
       @include small {
         bottom: 13%;
+      }
+      @include medium {
+        top: 17%;
       }
     }
     .projects-previous {
@@ -194,6 +227,9 @@
       font-size: 24px;
       @include small {
         bottom: 10%;
+      }
+      @include medium {
+        top: 15%;
       }
     }
   }
