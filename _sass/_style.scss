@@ -21,6 +21,12 @@ body {
   }
 }
 
+@mixin smallheight {
+  @media only screen and (max-height: 600px) {
+    @content;
+  }
+}
+
 @mixin medium {
   @media only screen and (max-width: 834px) {
     @content;

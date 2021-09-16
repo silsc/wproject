@@ -35,6 +35,10 @@
       bottom: -40%;
       left: 50%;
       transform: translate(-50%, -50%);
+      @include small {
+        bottom: -20%;
+        font-size: 20vw;
+      }
     }
     .projects-next-line {
       position: absolute;
@@ -42,6 +46,9 @@
       right: 5%;
       width: 15%;
       border-top: 1px solid white;
+      @include small {
+        bottom: 13%;
+      }
     }
     .projects-next {
       font-family: Lora;
@@ -51,6 +58,9 @@
       bottom: 47%;
       right: 22%;
       font-size: 24px;
+      @include small {
+        bottom: 10%;
+      }
     }
   }
   .project-two-section {
@@ -81,6 +91,10 @@
       top: -15%;
       left: 50%;
       transform: translate(-50%, -50%);
+      @include small {
+        top: -10%;
+        font-size: 20vw;
+      }
     }
     .projects-next-line {
       position: absolute;
@@ -88,6 +102,9 @@
       right: 5%;
       width: 15%;
       border-top: 1px solid white;
+      @include small {
+        bottom: 13%;
+      }
     }
     .projects-next {
       font-family: Lora;
@@ -97,6 +114,9 @@
       bottom: 47%;
       right: 22%;
       font-size: 24px;
+      @include small {
+        bottom: 10%;
+      }
     }
     .projects-previous-line {
       position: absolute;
@@ -104,6 +124,9 @@
       left: 5%;
       width: 15%;
       border-top: 1px solid white;
+      @include small {
+        top: 13%;
+      }
     }
     .projects-previous {
       font-family: Lora;
@@ -113,6 +136,9 @@
       bottom: 47%;
       left: 22%;
       font-size: 24px;
+      @include small {
+        top: 10%;
+      }
     }
   }
   .project-three-section {
@@ -143,6 +169,10 @@
       bottom: -40%;
       left: 50%;
       transform: translate(-50%, -50%);
+      @include small {
+        bottom: -20%;
+        font-size: 20vw;
+      }
     }
     .projects-previous-line {
       position: absolute;
@@ -150,6 +180,9 @@
       left: 5%;
       width: 15%;
       border-top: 1px solid white;
+      @include small {
+        bottom: 13%;
+      }
     }
     .projects-previous {
       font-family: Lora;
@@ -159,6 +192,9 @@
       bottom: 47%;
       left: 22%;
       font-size: 24px;
+      @include small {
+        bottom: 10%;
+      }
     }
   }
 }
