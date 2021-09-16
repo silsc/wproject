@@ -32,4 +32,8 @@
       color: $bright-yellow;
     }
   }
+  @include small {
+    width: 80%;
+    height: 80%;
+  }
 }
