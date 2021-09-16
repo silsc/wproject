@@ -31,8 +31,8 @@ title: W project
             </a>
         </div>
     </div>
-    {% include footer.html %}
 </div>
+{% include footer.html %}
 <div class="video-container">
     <iframe src="https://streamable.com/e/60e5pr?autoplay=1&nocontrols=1" frameborder="0">
     </iframe>
